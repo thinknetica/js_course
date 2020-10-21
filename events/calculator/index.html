@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      .wrapper {
+        width: 202px;
+        box-sizing: content-box;
+      }
+
+      .buttons-block {
+        height: 150px;
+        width: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: content-box;
+      }
+
+      .display {
+        height: 30px;
+        border: 1px solid black;
+        margin-bottom: 10px;
+      }
+      .button {
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 50px;
+        user-select: none;
+        cursor: pointer;
+      }
+    </style>
+    <div class="wrapper">
+      <div class="display"></div>
+      <div class="buttons-block">
+        <div class="button">1</div>
+        <div class="button">2</div>
+        <div class="button">3</div>
+        <div class="button">4</div>
+        <div class="button">5</div>
+        <div class="button">6</div>
+        <div class="button">7</div>
+        <div class="button">8</div>
+        <div class="button">9</div>
+        <div class="button">-</div>
+        <div class="button">+</div>
+        <div class="button">=</div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
